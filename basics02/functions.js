@@ -49,7 +49,7 @@ function handelObjet(anyObject){
 }
 
 // handelObjet(user)
-handelObject({
+handelObjet({
     username: "sam",
     price :300
 })
