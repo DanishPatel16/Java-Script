@@ -45,7 +45,7 @@ const user = {
 }
 
 function handelObjet(anyObject){
-    console.log('User is ${anyobject.username} and price is ${object.price}')
+    //console.log(`User is ${anyObject.username} and price is ${anyObject.price}`)
 }
 
 // handelObjet(user)
@@ -53,3 +53,11 @@ handelObjet({
     username: "sam",
     price :300
 })
+
+const myNewArray = [200,300,400]
+
+function returnSeconValue(getArray) {
+    return getArray[1]
+}
+// console.log(myNewArray);
+// console.log(returnSeconValue([11,22,33]));
