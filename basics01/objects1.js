@@ -72,8 +72,8 @@ console.log(instructor);
 
 //API
 
-{
-    "Name" : "Danish",
-    "CourseName " : "JS"
-    "Price" : "free"
-}
+// {
+//     "Name" : "Danish",
+//     "CourseName " : "JS"
+//     "Price" : "free"
+// }
