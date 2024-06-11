@@ -25,7 +25,7 @@ const obj4 = {5: "a", 6: "b"}
 // const obj3 = Object.assign({},obj1, obj2,obj4)
 
 const obj3 = {...obj1,...obj2}
-console.log(obj3);
+// console.log(obj3);
 //console.log([obj1][obj2]);
 
 // const users = [{
@@ -48,9 +48,32 @@ console.log(obj3);
 
 // console.log(users[1].email);
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty("name")); // 
+// console.log(tinderUser.hasOwnProperty("name")); // 
+
+//De-structureing.
+
+const course = {
+    courseName : "Js ",
+    price : "999",
+    courseInstructor : "Danish"
+}
+
+//course.Courseinstrucotr
+
+const {courseInstructor : instructor} =course
+
+console.log(instructor);
+
+
+//API
+
+{
+    "Name" : "Danish",
+    "CourseName " : "JS"
+    "Price" : "free"
+}
